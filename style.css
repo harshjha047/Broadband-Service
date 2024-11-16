@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    height: 18vh;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    flex-direction: column;
+    z-index: 999;
+    box-shadow: 1px 5px 10px 12px rgba(78, 78, 78, 0.267);
+}
+
+.navPanel1,.navPanel2{
+    height: 30%;
+    width: 100%;
+
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navPanel1{
+    background-color: #2E3091;
+}
+
+.navPanel2{
+    height: 70%;
+    background-color: #fff;
+
+}
+
+.navPanel1-1,.navPanel2-1{
+    height: 100%;
+    width: 88%;
+    /* border: 1px solid #fff; */
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+
+.navPanel2-1{
+    justify-content: space-between;
+}
+
+.logo,.urls{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    /* border: 1px solid #fff; */
+}
+
+.logo{
+    /* background: url('https://gratisography.com/wp-content/uploads/2024/10/gratisography-cool-cat-800x525.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 2.65rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2E3091;
+}
+
+.home{
+    font-size: 3vh;
+    font-weight: 600;
+    height: 100%;
+    width: 10vw;
+    /* border-left: 1px solid #5e5e5e; */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .home svg{
+    /* border: 1px solid #000; */
+    color: #9394cc;
+    width: 25%;
+    height: 40%;
+  }
+
+  .home a{
+    text-decoration: none;
+    color: #2E3091;
+    /* font-size: 1.5rem; */
+    font-weight: 600;
+  }
+  
+
+.page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Services{
+    background-color: #f1f1f1;
+    height: 85vh;
+    width: 97vw;
+    border: 1px solid #ddd;
+    /* margin-top:13vh ; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.service-pack{
+    height: 100%;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.service-case{
+    min-width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service{
+    height: 65vh;
+    width: 24vw;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #333;
+    background-color: #0F397E;
+    flex-direction: column;
+    position: relative;
+    border-radius: 1.7vh;
+}
+
+.give ,.take{
+    height: 17%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.2vh;
+    font-weight: 600;
+}
+
+.give{
+    background-color: #0F397E;
+    color: #fff;
+    border-radius:1.6vh 1.6vh 0 0;
+}
+
+.take{
+    color: #0F397E;
+    border-bottom: 1px solid #ddd;
+    background-color: #FFF;
+}
+
+.hints{
+    height: 50%;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.hint{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hint-img{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hint-img img{
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+}
+
+.hint-para{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2vh;
+    color: #0F397E;
+    font-weight: 500;
+}
+
+button{
+    height: 7vh;
+    width: 60%;
+    border: none;
+    background-color: #ffffff;
+    color: #0F397E;
+    font-size: 2.8vh;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    border: 1px solid #ddd;
+    bottom: -3.5vh;
+    border-radius: 5vh;
+}
+
+.left ,.right{
+    color: #316ebd;
+    height: 14vh;
+    width: 3vw;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 1vh;
+    font-size: 5vh;
+    cursor: pointer;
+}
+
+.left svg{
+    color: #316ebd;
+}
+
+.right svg{
+    color: #316ebd;
+}
+
+.Page1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.filler{
+    height: 18vh;
+    width: 100%;
+    /* border: 1px solid #000; */
+}
+
+.header{
+    height: 66vh;
+    width: 100%;
+    /* border: 1px solid #000; */
+    background: url('./Website-Sliders---Jan\'24_Main-Slider-copy-2758954381.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ref{
+    height: 15vh;
+    width: 100%;
+    /* border: 1px solid #000; */
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.footer{
+    height: 50vh;
+    width: 100%;
+    /* border: 1px solid #000; */
+    background-color: #2E3091;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titelLogo{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid #000; */
+    
+    color:#fff;
+    font-weight: 600;
+}
+
+.footerAbout{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    border-left: 1px solid #bdbdbd8e;
+    font-weight: 600;
+    padding: 1vh;
+    color: #fff;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.callus{
+    font-size: 2vh;
+}
+.addressTxt{
+    font-size: 2vh;
+}
+
+.titelLogoMain{
+    font-size: 25vh;
+    line-height: 0.7;
+}
+
+.titelLogoSub{
+    font-size: 14.4vh;
+}
+
+main{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+aside{
+    height: 100vh;
+    width: 45vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    overflow: hidden;
+    background: url('./Untitled_design-removebg-preview.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+}
+article{
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    
+}
+/* .articleLeft{
+    align-items: end;
+} */
+.articleRight{
+    align-items: end;
+}
+.articleRight .info{
+    justify-content: end;
+}
+.info{
+    height: 20vh;
+    width: 55vh;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+}
+.info h3{
+    font-size: 3.2vh;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+}
+.info img{
+    height: 100%;
+    padding: 1vh;
+}

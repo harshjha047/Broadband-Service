@@ -1,0 +1,79 @@
+/* bg-#0F0E16 */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    /* border: 1px solid #000; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #ffffff;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+aside{
+    height: 100%;
+    width: 45vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    overflow: hidden;
+    background: url('./Untitled_design-removebg-preview.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+}
+article{
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    
+}
+/* .articleLeft{
+    align-items: end;
+} */
+.articleRight{
+    align-items: end;
+}
+.articleRight .info{
+    justify-content: end;
+}
+.info{
+    height: 20vh;
+    width: 55vh;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+}
+.info h3{
+    font-size: 3.2vh;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+}
+.info img{
+    height: 100%;
+    padding: 1vh;
+}
+/* aside img{
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+
+} */
